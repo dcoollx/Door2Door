@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="css/w3-theme-deep-purple.css" />
+    <link rel="stylesheet" href="css/main.css"/>
+</head>
+<body>
+    <script src="scripts/index.js"></script>
+    <nav class="w3-bar-block w3-card-4 w3-sidebar w3-animate-left" id="settings" style="width:95%;display:none" ondragend="showSettings()">
+        <button class="w3-right w3-button" onclick="showSettings()">x</button>
+        <h3 class="w3-bar-item">Settings</h3>
+        <ul class="w3-container w3-ul">
+            <li>Location</li>
+            <li>guess address</li>
+            <li>sync(coming soon)</li>
+            <li>about</li>
+            <li>help(coming soon)</li>
+            <li>privacy policy</li>
+
+
+        </ul>
+    </nav>
+
+    <!--HEADER-->
+    <header class="w3-theme">
+        <button onclick="showSettings()" class="w3-bar-item w3-button w3-hover-white w3-large ">&#9776;</button>
+        <p class="w3-right">Door 2 Door </p>
+    </header>
+
+    <!--CONTENT-->
+    <div class="w3-theme w3-display-container" style="height:30%; z-index:0;margin-top:0;">
+        <div id="map" class="w3-container w3-card w3-theme w3-display-middle">
+            hello, Seems like there was a problem retriving the map from google. Please ensure this app has permission to access your location and the internet.
+        </div>
+    </div>
+
+    <div class="w3-bar w3-theme w3-card" style="border-bottom: 2px outset #BDBDBD; z-index:3"><span id="streetAddress">Todd Ave, Galloway Nj</span></div><button id="addButton" class="w3-circle accent w3-card w3-right w3-button w3-xlarge">+</button>
+    <!--Area for CONTROLLS-->
+    <!--CONTROLLS-->
+    <div id="content" class="w3-container w3-margin-top" style="overflow:scroll;">
+
+
+
+    </div><!--EndContent-->
+    <!--FOOTER-->
+    <footer style="z-index:2; padding:0; color:gainsboro" class="w3-container w3-bottom w3-theme w3-bar w3-card w3-margin-top"><p class="w3-right">&#xa9;2017</p></footer>
+   <script src="scripts/index.js"></script>
+    <script>
+	//window.addEventlistner("wheel",function(){preventDefault();})
+	function updateUI(data){
+	  //console.log("UPDATING UI");
+	  var addressBar = document.getElementById('streetAddress');
+	  addressBar.innerHTML = data.street;
+	}
+	function showSettings(){
+	  let settings = document.getElementById("settings");
+	  if(settings.style.display != "block")
+	  {
+	    settings.style.display = "block";
+	  }else{settings.style.display = "none";}
+	}
+	function expand(Id){
+	  let card = document.getElementById(Id);
+	  if(card.className != "w3-container w3-card w3-animate-zoom w3-show"){
+	  card.className = "w3-container w3-card w3-animate-zoom w3-show";}
+	  else{card.className = "w3-container w3-card w3-hidden";}
+	}
+	var map, marker, pos;
+	function initMap() {
+	      var uluru =  {lat: 39.494186299999996, lng: -74.7347674};
+        map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 18,
+          center: uluru
+        });
+      }
+  function getPos(){
+    navigator.geolocation.getCurrentPosition(function(res){
+      pos = {lat: res.coords.latitude, lng: res.coords.longitude};
+      //console.log(pos);
+      map.setCenter(pos);
+      getAddress(pos);
+    },function(err){
+      alert("error");
+    });
+  }
+    </script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAESgPxsQ7jNl7p85qz6oyfxQHMlj0EXFk&callback=initMap">
+    </script>
+    <script src="scripts/geo.js"></script>
+    <script src="scripts/platformOverrides.js"></script>
+    <script src="cordova.js"></script>
+</body>
+<!--&#x2714;(check mark)-->
+</html>

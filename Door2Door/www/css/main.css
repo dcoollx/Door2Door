@@ -1,0 +1,59 @@
+﻿
+html, body {
+    height: 100%;
+    width: 100%
+}
+
+body {
+    background-color: #DFDFDF;
+    overflow: hidden;
+}
+
+#content {
+    height: 60%;
+    font-family: Times New Roman;
+}
+
+h1 {
+    color: white;
+}
+
+.accent {
+    background-color: #E040FB;
+    color: white;
+    margin-right: 8px;
+}
+
+.darkPrimary {
+    background-color: #512DA8;
+    color: white;
+}
+
+#addButton {
+    position: relative;
+    top: -22px;
+    color: white;
+}
+
+header {
+    margin: 0;
+    padding-right: 8px;
+}
+
+footer {
+    height: 30px;
+    font-size: 5;
+    color: gray;
+    opacity: 0.75;
+}
+
+nav {
+    z-index: 4;
+}
+
+#map {
+    height: 100%;
+    width: 90%;
+    overflow: hidden;
+    z-index: 1;
+}

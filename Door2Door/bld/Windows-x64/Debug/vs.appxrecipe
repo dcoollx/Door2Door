@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-HP3BC2I</Machine>
+    <WindowsUser>dsqjr</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>6c0726e0-41ba-11e7-a661-2b935b625026</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Apache Cordova Team</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\dsqjr\documents\visual studio 2017\Projects\Door2Door\Door2Door\platforms\windows\build\windows\bld\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>
+    </WindowsSdkPath>
+    <LayoutDir>C:\Users\dsqjr\documents\visual studio 2017\Projects\Door2Door\Door2Door\platforms\windows\build\windows\debug\x64\win10\AppX</LayoutDir>
+    <RegisteredManifestChecksum>327121DE0BDE3C0D60B2893D4F7B15634F57C8E17C5CAF38F81BD4FFF3D34648</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>io.cordova.myappa9a623_1.0.0.0_x64__h35559jr9hy9m</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>io.cordova.myappa9a623_h35559jr9hy9m!io.cordova.myappa9a623</RegisteredUserModeAppID>
+    <RegisteredPackageID>io.cordova.myappa9a623</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Apache Cordova Team</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\dsqjr\documents\visual studio 2017\Projects\Door2Door\Door2Door\platforms\windows\build\windows\debug\x64\win10\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-29T16:36:10.685</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\dsqjr\documents\visual studio 2017\Projects\Door2Door\Door2Door\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-26T02:24:21.846</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dsqjr\documents\visual studio 2017\Projects\Door2Door\Door2Door\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-26T02:24:21.856</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dsqjr\documents\visual studio 2017\Projects\Door2Door\Door2Door\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+      <Modified>2017-05-26T02:24:21.866</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dsqjr\documents\visual studio 2017\Projects\Door2Door\Door2Door\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-26T02:24:21.873</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dsqjr\documents\visual studio 2017\Projects\Door2Door\Door2Door\platforms\windows\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-26T02:24:21.879</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dsqjr\documents\visual studio 2017\Projects\Door2Door\Door2Door\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+      <Modified>2017-05-26T02:24:21.890</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dsqjr\documents\visual studio 2017\Projects\Door2Door\Door2Door\platforms\windows\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-26T02:24:21.895</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dsqjr\documents\visual studio 2017\Projects\Door2Door\Door2Door\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-26T02:24:21.907</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dsqjr\documents\visual studio 2017\Projects\Door2Door\Door2Door\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-26T02:24:21.922</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dsqjr\documents\visual studio 2017\Projects\Door2Door\Door2Door\platforms\windows\www\images\cordova.png">
+      <PackagePath>www\images\cordova.png</PackagePath>
+      <Modified>2017-05-26T02:24:21.652</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dsqjr\documents\visual studio 2017\Projects\Door2Door\Door2Door\platforms\windows\www\cordova-js-src\confighelper.js">
+      <PackagePath>www\cordova-js-src\confighelper.js</PackagePath>
+      <Modified>2017-05-29T16:36:07.489</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dsqjr\documents\visual studio 2017\Projects\Door2Door\Door2Door\platforms\windows\www\cordova-js-src\exec.js">
+      <PackagePath>www\cordova-js-src\exec.js</PackagePath>
+      <Modified>2017-05-29T16:36:07.489</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dsqjr\documents\visual studio 2017\Projects\Door2Door\Door2Door\platforms\windows\www\cordova-js-src\platform.js">
+      <PackagePath>www\cordova-js-src\platform.js</PackagePath>
+      <Modified>2017-05-29T16:36:07.489</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dsqjr\documents\visual studio 2017\Projects\Door2Door\Door2Door\platforms\windows\www\cordova-js-src\splashscreen.js">
+      <PackagePath>www\cordova-js-src\splashscreen.js</PackagePath>
+      <Modified>2017-05-29T16:36:07.489</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dsqjr\documents\visual studio 2017\Projects\Door2Door\Door2Door\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+      <Modified>2017-05-26T02:24:21.588</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dsqjr\documents\visual studio 2017\Projects\Door2Door\Door2Door\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+      <Modified>2017-05-29T16:36:07.489</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dsqjr\documents\visual studio 2017\Projects\Door2Door\Door2Door\platforms\windows\www\plugins\cordova-plugin-geolocation\src\windows\GeolocationProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-geolocation\src\windows\GeolocationProxy.js</PackagePath>
+      <Modified>2017-05-29T16:36:07.489</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dsqjr\documents\visual studio 2017\Projects\Door2Door\Door2Door\platforms\windows\www\plugins\cordova-plugin-geolocation\www\Coordinates.js">
+      <PackagePath>www\plugins\cordova-plugin-geolocation\www\Coordinates.js</PackagePath>
+      <Modified>2017-05-29T16:36:07.489</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dsqjr\documents\visual studio 2017\Projects\Door2Door\Door2Door\platforms\windows\www\plugins\cordova-plugin-geolocation\www\geolocation.js">
+      <PackagePath>www\plugins\cordova-plugin-geolocation\www\geolocation.js</PackagePath>
+      <Modified>2017-05-29T16:36:07.489</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dsqjr\documents\visual studio 2017\Projects\Door2Door\Door2Door\platforms\windows\www\plugins\cordova-plugin-geolocation\www\Position.js">
+      <PackagePath>www\plugins\cordova-plugin-geolocation\www\Position.js</PackagePath>
+      <Modified>2017-05-29T16:36:07.489</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dsqjr\documents\visual studio 2017\Projects\Door2Door\Door2Door\platforms\windows\www\plugins\cordova-plugin-geolocation\www\PositionError.js">
+      <PackagePath>www\plugins\cordova-plugin-geolocation\www\PositionError.js</PackagePath>
+      <Modified>2017-05-29T16:36:07.505</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dsqjr\documents\visual studio 2017\Projects\Door2Door\Door2Door\platforms\windows\www\plugins\cordova-plugin-statusbar\src\windows\StatusBarProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-statusbar\src\windows\StatusBarProxy.js</PackagePath>
+      <Modified>2017-05-29T16:36:07.505</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dsqjr\documents\visual studio 2017\Projects\Door2Door\Door2Door\platforms\windows\www\plugins\cordova-plugin-statusbar\www\statusbar.js">
+      <PackagePath>www\plugins\cordova-plugin-statusbar\www\statusbar.js</PackagePath>
+      <Modified>2017-05-29T16:36:07.505</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dsqjr\documents\visual studio 2017\Projects\Door2Door\Door2Door\platforms\windows\www\scripts\bootstrap.min.js">
+      <PackagePath>www\scripts\bootstrap.min.js</PackagePath>
+      <Modified>2017-05-29T16:36:07.505</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dsqjr\documents\visual studio 2017\Projects\Door2Door\Door2Door\platforms\windows\www\scripts\geo.js">
+      <PackagePath>www\scripts\geo.js</PackagePath>
+      <Modified>2017-05-29T16:16:36.143</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dsqjr\documents\visual studio 2017\Projects\Door2Door\Door2Door\platforms\windows\www\scripts\index.js">
+      <PackagePath>www\scripts\index.js</PackagePath>
+      <Modified>2017-05-29T16:16:36.143</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dsqjr\documents\visual studio 2017\Projects\Door2Door\Door2Door\platforms\windows\www\scripts\platformOverrides.js">
+      <PackagePath>www\scripts\platformOverrides.js</PackagePath>
+      <Modified>2017-05-26T02:24:21.728</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dsqjr\documents\visual studio 2017\Projects\Door2Door\Door2Door\platforms\windows\www\scripts\winstore-jscompat.js">
+      <PackagePath>www\scripts\winstore-jscompat.js</PackagePath>
+      <Modified>2017-05-26T02:24:21.731</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dsqjr\documents\visual studio 2017\Projects\Door2Door\Door2Door\platforms\windows\www\WinJS\js\base.js">
+      <PackagePath>www\WinJS\js\base.js</PackagePath>
+      <Modified>2017-05-26T02:24:21.562</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dsqjr\documents\visual studio 2017\Projects\Door2Door\Door2Door\platforms\windows\www\css\main.css">
+      <PackagePath>www\css\main.css</PackagePath>
+      <Modified>2017-05-29T16:16:36.096</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dsqjr\documents\visual studio 2017\Projects\Door2Door\Door2Door\platforms\windows\www\css\splashscreen.css">
+      <PackagePath>www\css\splashscreen.css</PackagePath>
+      <Modified>2017-05-26T02:24:21.648</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dsqjr\documents\visual studio 2017\Projects\Door2Door\Door2Door\platforms\windows\www\css\w3-theme-deep-purple.css">
+      <PackagePath>www\css\w3-theme-deep-purple.css</PackagePath>
+      <Modified>2017-05-29T16:16:36.096</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dsqjr\documents\visual studio 2017\Projects\Door2Door\Door2Door\platforms\windows\www\css\w3.css">
+      <PackagePath>www\css\w3.css</PackagePath>
+      <Modified>2017-05-29T16:16:36.096</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dsqjr\documents\visual studio 2017\Projects\Door2Door\Door2Door\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+      <Modified>2017-05-29T16:35:03.441</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dsqjr\documents\visual studio 2017\Projects\Door2Door\Door2Door\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+      <Modified>2017-05-29T16:36:07.294</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dsqjr\documents\visual studio 2017\Projects\Door2Door\Door2Door\platforms\windows\build\windows\debug\x64\win10\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-05-29T16:36:10.500</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
