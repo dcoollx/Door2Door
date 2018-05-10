@@ -1,11 +1,12 @@
 <ion-view title="Settings" id="page8">
-  <ion-nav-buttons class="has-header" side="right" scroll="false">
-    <button class="button button-icon icon ion-gear-b"></button>
+  <ion-nav-buttons class="has-header" side="left">
+    <button class="button button-icon icon No Icon"></button>
   </ion-nav-buttons>
-  <ion-content class="has-header" padding="true" scroll="false">
+  <ion-content class="has-header" padding="true">
     <form class="list" id="settings-form3">
-      <ion-toggle id="settings-toggle2" toggle-class="toggle-positive">auto send report</ion-toggle>
-      <ion-toggle id="settings-toggle3" toggle-class="toggle-positive" ng-checked="true">location</ion-toggle>
+      <ion-toggle id="settings-toggle4" toggle-class="toggle-positive" ng-checked="true">location</ion-toggle>
+      <ion-toggle id="settings-toggle5" toggle-class="toggle-positive" ng-checked="true">auto-send report</ion-toggle>
     </form>
+    <a class="button button-positive button-block" id="settings-button8" ui-sref="tabsController.timer()">OK</a>
   </ion-content>
 </ion-view>

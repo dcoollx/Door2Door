@@ -67,7 +67,13 @@ angular.module('app.routes', [])
     }
   })
 
-$urlRouterProvider.otherwise('/page1/page3')
+  .state('settings', {
+    url: '/page8',
+    templateUrl: 'templates/settings.html',
+    controller: 'settingsCtrl'
+  })
+
+$urlRouterProvider.otherwise('/page1/page2')
 
 
 });

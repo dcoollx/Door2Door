@@ -77,9 +77,9 @@
       </ion-header-bar>
       <ion-content class="side-menu-left has-header " ng-controller="menuCtrl" padding="false">
         <ion-list id="menu-list3" data-componentid="list3">
-          <ion-item class="item-icon-left" id="menu-list-item2" data-componentid="list-item2">
+          <ion-item class="item-icon-left" id="menu-list-item2" ui-sref="settings()" data-componentid="list-item2" menu-close="">
             <i class="icon ion-gear-b"></i>Settings</ion-item>
-          <ion-item class="item-icon-left" id="menu-list-item3" data-componentid="list-item3">
+          <ion-item class="item-icon-left" id="menu-list-item3" ui-sref="about()" data-componentid="list-item3" menu-close="">
             <i class="icon ion-information-circled"></i>about</ion-item>
         </ion-list>
       </ion-content>
