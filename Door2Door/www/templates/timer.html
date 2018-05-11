@@ -1,8 +1,9 @@
 <ion-view title="Timer" id="page2">
   <ion-content class="has-header" padding="true" scroll="false">
+      <h1 id="mainTimer">0:00:00</h1>
     <div class="spacer" style="height: 200px;"></div>
     <div class="button-bar" id="timer-button-bar1">
-      <button class="button button-balanced button-block" id="timer-button4">Start</button>
+      <button class="button button-balanced button-block" id="timer-button4" onclick="startTimer()">Start</button>
       <button class="button button-assertive button-block" id="timer-button5">Stop</button>
     </div>
   </ion-content>

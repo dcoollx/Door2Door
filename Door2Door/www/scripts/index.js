@@ -14,7 +14,7 @@
         
         // TODO: Cordova has been loaded. Perform any initialization that requires Cordova here.
 
-        StatusBar.backgroundColorByHexString("#512DA8");
+        //StatusBar.backgroundColorByHexString("#512DA8");
         console.log("STATUS BAR: Deep-Purple");
         var parentElement = document.getElementById('deviceready');
         var listeningElement = parentElement.querySelector('.listening');
